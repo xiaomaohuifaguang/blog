@@ -21,18 +21,20 @@ export default hopeTheme({
 
   blog: {
     medias: {
+      GitHub: "https://github.com/xiaomaohuifaguang",
+      Gitee: "https://gitee.com/xiaomaohuifaguang",
+      Email: "mailto:xiaomaohuifaguang@163.com",
       // Baidu: "https://example.com",
       // BiliBili: "https://example.com",
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      // Email: "mailto:info@example.com",
+      // Email: "mailto:xiaomaohuifaguang@163.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
-      // Gitee: "https://example.com",
-      // GitHub: "https://example.com",
+      
       // Gitlab: "https://example.com",
       // Gmail: "mailto:info@example.com",
       // Instagram: "https://example.com",
