@@ -29,4 +29,4 @@ tag:
     - Secret: 粘贴刚才的令牌进去
     - 点击 Add secret
 3. 配置代码workflow
-    - 替换GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 其中 secrets.GITHUB_TOKEN 替换为第二步在仓库中配置的名称
+    - 替换GITHUB_TOKEN 其中 secrets.GITHUB_TOKEN 替换为第二步在仓库中配置的名称
