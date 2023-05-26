@@ -52,8 +52,12 @@ stages:
           - '# git clone ***@***.git'
           - '#echo ''Hello Gitee Go!'''
           - tar -zxvf /root/gitee_workflow/output.tar.gz -C /root/gitee_workflow/
-          - cp /root/gitee_workflow/dist/* /root/gitee_workflow/blog/
+          - cp -r /root/gitee_workflow/blog/.git /root/gitee_workflow
+          - cp -r /root/gitee_workflow/blog/.gitignore /root/gitee_workflow
+          - rm -rf /root/gitee_workflow/blog/*
           - yes | cp -r /root/gitee_workflow/dist/* /root/gitee_workflow/blog/
+          - mv /root/gitee_workflow/.git /root/gitee_workflow/blog
+          - mv /root/gitee_workflow/.gitignore /root/gitee_workflow/blog
           - cd /root/gitee_workflow/blog
           - git add .
           - git commit -m "gitee_workflow"
