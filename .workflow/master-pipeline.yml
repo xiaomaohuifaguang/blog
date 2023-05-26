@@ -50,7 +50,16 @@ stages:
           - '# sh /home/admin/app/deploy.sh restart'
           - '# 如果你是php之类的无需制品包的制品方式，可以使用 git clone 或者 git pull 将源代码更新到服务器，再执行其他命令'
           - '# git clone ***@***.git'
-          - echo 'Hello Gitee Go!'
+          - '#echo ''Hello Gitee Go!'''
+          - tar -zxvf /root/gitee_workflow/output.tar.gz -C /root/gitee_workflow/
+          - cp /root/gitee_workflow/dist/* /root/gitee_workflow/blog/
+          - yes | cp -r /root/gitee_workflow/dist/* /root/gitee_workflow/blog/
+          - cd /root/gitee_workflow/blog
+          - git add .
+          - git commit -m "gitee_workflow"
+          - git push origin "gh_pages"
+          - echo 'Hello Gitee Go! finish'
+          - ''
         notify: []
         strategy:
           retry: '0'
