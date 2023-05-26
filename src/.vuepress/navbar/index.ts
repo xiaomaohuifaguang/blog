@@ -21,5 +21,8 @@ export const myNavbar = navbar([
     icon: "note",
     link: "/随笔/",
   },
+  "/其他/外链.md",
+  "/其他/关于.md",
+  
 ]);
 

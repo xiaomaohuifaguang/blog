@@ -41,7 +41,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "是的 你知道的.",
+        description: "钱难挣，屎难吃",
         // intro: "/intro.html",
       },
       editLink: false,
@@ -79,7 +79,9 @@ export default hopeTheme({
       align: true,
       attrs: true,
       chart: true,
+      card: true,
       codetabs: true,
+      container: true,
       demo: true,
       echarts: true,
       figure: true,
