@@ -2,6 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { myNavbar } from "./navbar/index.js";
 import { mySidebar } from "./sidebar/index.js";
 
+
 export default hopeTheme({
   // hostname: "https://xiaomaohuifaguang.github.io",
 
@@ -24,36 +25,6 @@ export default hopeTheme({
       GitHub: "https://github.com/xiaomaohuifaguang",
       Gitee: "https://gitee.com/xiaomaohuifaguang",
       Email: "mailto:xiaomaohuifaguang@163.com",
-      // Baidu: "https://example.com",
-      // BiliBili: "https://example.com",
-      // Bitbucket: "https://example.com",
-      // Dingding: "https://example.com",
-      // Discord: "https://example.com",
-      // Dribbble: "https://example.com",
-      // Email: "mailto:xiaomaohuifaguang@163.com",
-      // Evernote: "https://example.com",
-      // Facebook: "https://example.com",
-      // Flipboard: "https://example.com",
-      
-      // Gitlab: "https://example.com",
-      // Gmail: "mailto:info@example.com",
-      // Instagram: "https://example.com",
-      // Lark: "https://example.com",
-      // Lines: "https://example.com",
-      // Linkedin: "https://example.com",
-      // Pinterest: "https://example.com",
-      // Pocket: "https://example.com",
-      // QQ: "https://example.com",
-      // Qzone: "https://example.com",
-      // Reddit: "https://example.com",
-      // Rss: "https://example.com",
-      // Steam: "https://example.com",
-      // Twitter: "https://example.com",
-      // Wechat: "https://example.com",
-      // Weibo: "https://example.com",
-      // Whatsapp: "https://example.com",
-      // Youtube: "https://example.com",
-      // Zhihu: "https://example.com",
     },
   },
 
@@ -73,26 +44,37 @@ export default hopeTheme({
         description: "是的 你知道的.",
         // intro: "/intro.html",
       },
-
-      metaLocales: {
-        // editLink: "Edit this page on GitHub",
-      },
+      editLink: false,
     }
   },
-
   encrypt: {
     config: {
-      // "/demo/encrypt.html": ["1234"],
-      // "/zh/demo/encrypt.html": ["1234"],
     },
   },
 
   plugins: {
     blog: true,
-
     comment: {
+      comment: false,
       provider: "Giscus",
+      repo: "xiaomaohuifaguang/blog",
+      repoId: "R_kgDOJnfkXw",
+      category: "Announcements",
+      categoryId: "DIC_kwDOJnfkX84CWwxI",
+      lazyLoading: true,//懒加载
+      strict: false,
+      lightTheme: "light",
+      darkTheme: "dark"
+      
     },
+    copyCode:{
+      fancy: true,
+    },
+    copyright:{
+      global: true,
+      author: "小猫会发光"
+    },
+    photoSwipe: true,
     mdEnhance: {
       align: true,
       attrs: true,
@@ -135,4 +117,4 @@ export default hopeTheme({
       vuePlayground: true,
     },
   },
-});
+}, { custom: true });

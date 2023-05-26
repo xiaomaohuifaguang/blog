@@ -1,5 +1,9 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+// import { searchProPlugin } from "vuepress-plugin-search-pro";
+import { getDirname, path } from "@vuepress/utils";
+
+const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   base: "/blog/",
@@ -11,9 +15,16 @@ export default defineUserConfig({
       description: "又活一天.",
     },
   },
-
+  plugins: [
+    // searchProPlugin({
+    //   // 配置选项
+    // })
+  ],
   theme,
-
-  // Enable it with pwa
-  // shouldPrefetch: false,
+  alias: {
+    "@theme-hope/modules/blog/components/BlogHero": path.resolve(
+      __dirname,
+      "./components/BlogHero.vue"
+    ),
+  },
 });

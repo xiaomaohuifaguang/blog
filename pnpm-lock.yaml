@@ -4,12 +4,18 @@ devDependencies:
   '@vuepress/client':
     specifier: 2.0.0-beta.62
     version: registry.npmmirror.com/@vuepress/client@2.0.0-beta.62
+  '@vuepress/utils':
+    specifier: 2.0.0-beta.62
+    version: registry.npmmirror.com/@vuepress/utils@2.0.0-beta.62
   vue:
     specifier: ^3.3.4
     version: registry.npmmirror.com/vue@3.3.4
   vuepress:
     specifier: 2.0.0-beta.62
     version: registry.npmmirror.com/vuepress@2.0.0-beta.62(@vuepress/client@2.0.0-beta.62)(vue@3.3.4)
+  vuepress-plugin-search-pro:
+    specifier: 2.0.0-beta.215
+    version: registry.npmmirror.com/vuepress-plugin-search-pro@2.0.0-beta.215(vuepress@2.0.0-beta.62)
   vuepress-theme-hope:
     specifier: 2.0.0-beta.215
     version: registry.npmmirror.com/vuepress-theme-hope@2.0.0-beta.215(vuepress@2.0.0-beta.62)
@@ -2298,7 +2304,7 @@ packages:
     name: '@types/sax'
     version: 1.2.4
     dependencies:
-      '@types/node': registry.npmmirror.com/@types/node@17.0.45
+      '@types/node': registry.npmmirror.com/@types/node@20.2.3
     dev: true
 
   registry.npmmirror.com/@types/trusted-types@2.0.3:
@@ -6404,6 +6410,12 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
+  registry.npmmirror.com/slimsearch@0.0.1:
+    resolution: {integrity: sha512-OIUA4J7xbAQhlnMfJk3i+H6vxTYPBLESuelUCYIOYYS76FW9MkcjaPI7VS/CeGmqiupp2GdiAycDHGtOjSF3Bg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/slimsearch/-/slimsearch-0.0.1.tgz}
+    name: slimsearch
+    version: 0.0.1
+    dev: true
+
   registry.npmmirror.com/source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/source-map-js/-/source-map-js-1.0.2.tgz}
     name: source-map-js
@@ -7417,6 +7429,44 @@ packages:
       chokidar: registry.npmmirror.com/chokidar@3.5.3
       sass: registry.npmmirror.com/sass@1.62.1
       vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.62(@vuepress/client@2.0.0-beta.62)(vue@3.3.4)
+      vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.215(vuepress@2.0.0-beta.62)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - supports-color
+    dev: true
+
+  registry.npmmirror.com/vuepress-plugin-search-pro@2.0.0-beta.215(vuepress@2.0.0-beta.62):
+    resolution: {integrity: sha512-b4ZCd/Q7zZnY3BRj8VkE71mFxB+zO+xaUEobAmKCp3N1IpckexkNx3m8XbdZC4YR9qP5/UbPur2U16wfmvi4RQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-search-pro/-/vuepress-plugin-search-pro-2.0.0-beta.215.tgz}
+    id: registry.npmmirror.com/vuepress-plugin-search-pro/2.0.0-beta.215
+    name: vuepress-plugin-search-pro
+    version: 2.0.0-beta.215
+    engines: {node: '>=16.0.0', npm: '>=8', pnpm: '>=7'}
+    peerDependencies:
+      sass-loader: ^13.3.0
+      vuepress: 2.0.0-beta.62
+      vuepress-vite: 2.0.0-beta.62
+      vuepress-webpack: 2.0.0-beta.62
+    peerDependenciesMeta:
+      sass-loader:
+        optional: true
+      vuepress:
+        optional: true
+      vuepress-vite:
+        optional: true
+      vuepress-webpack:
+        optional: true
+    dependencies:
+      '@vuepress/client': registry.npmmirror.com/@vuepress/client@2.0.0-beta.62
+      '@vuepress/shared': registry.npmmirror.com/@vuepress/shared@2.0.0-beta.62
+      '@vuepress/utils': registry.npmmirror.com/@vuepress/utils@2.0.0-beta.62
+      '@vueuse/core': registry.npmmirror.com/@vueuse/core@10.1.2(vue@3.3.4)
+      cheerio: registry.npmmirror.com/cheerio@1.0.0-rc.12
+      chokidar: registry.npmmirror.com/chokidar@3.5.3
+      slimsearch: registry.npmmirror.com/slimsearch@0.0.1
+      vue: registry.npmmirror.com/vue@3.3.4
+      vue-router: registry.npmmirror.com/vue-router@4.2.1(vue@3.3.4)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.62(@vuepress/client@2.0.0-beta.62)(vue@3.3.4)
+      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette@2.0.0-beta.215(vuepress@2.0.0-beta.62)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.215(vuepress@2.0.0-beta.62)
     transitivePeerDependencies:
       - '@vue/composition-api'

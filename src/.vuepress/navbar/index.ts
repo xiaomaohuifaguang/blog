@@ -3,8 +3,8 @@ import { navbar } from "vuepress-theme-hope";
 export const myNavbar = navbar([
   "/",
   {
-    text: "文章",
-    icon: "edit",
+    text: "文 章",
+    icon: "article",
     // prefix: "/文章/",
     link: "/文章/"
     // children: [
@@ -17,9 +17,9 @@ export const myNavbar = navbar([
     // ],
   },
   {
-    text: "V2 文档",
+    text: "随 笔",
     icon: "note",
-    link: "https://theme-hope.vuejs.press/zh/",
+    link: "/随笔/",
   },
 ]);
 

@@ -1,5 +1,5 @@
 --- 
-author: $1x6VI
+author: $1x6
 icon: article
 isOriginal: true
 date: 2023-05-20
@@ -10,16 +10,11 @@ tag:
   - 使用教程
 sticky: false       # 列表是否置顶 默认 false
 star: false         # 是否收藏 默认 false
-article: true      # 收录到文章 默认 true
-timeline: true     # 是否将该文章添加至时间线中 默认 true
-# sidebar: "heading"
+article: false
+timeline: false
 ---
 
 # docker  
-
-::: tip 摘要
-docker 使用记录
-:::
 
 ## 安装
 
@@ -49,43 +44,6 @@ sudo systemctl start docker
 # 卸载  
 yum remove docker-ce
 rm -rf /var/lib/docker
-
-## deepin/ubuntu 安装
-# 卸载
-sudo apt-get remove docker docker-engine docker.io containerd runc
-# 更新 apt 包索引
-sudo apt-get update
-# 安装 apt 依赖包，用于通过HTTPS来获取仓库:
-sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    gnupg-agent \
-    software-properties-common
-
-# 添加 Docker 的官方 GPG 密钥：
-curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
-# 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88 通过搜索指纹的后8个字符，验证您现在是否拥有带有指纹的密钥
-sudo apt-key fingerprint 0EBFCD88
-# 使用以下指令设置稳定版仓库
-sudo add-apt-repository \
-   "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/ \
-  $(lsb_release -cs) \
-  stable"
-
-# 上一步如果报错执行下面两步 没报错忽略
-sudo vim /etc/apt/sources.list
-# 添加
-deb [arch=amd64] https://download.docker.com/linux/debian stretch stable
-
-
-# 更新 apt 包索引。
-sudo apt-get update
-# 安装最新版本的 Docker Engine-Community 和 containerd ，或者转到下一步安装特定版本：
-sudo apt-get install docker-ce docker-ce-cli containerd.io
-
-# 查看版本
-sudo docker version
 ```  
 
 ## 使用记录
@@ -186,53 +144,4 @@ nohup /home/root/jdk/jdk-17.0.7/bin/java -jar /home/root/jenkins/jenkins_home/ca
 
 # 日志持续输出
 docker logs -f mysql
-```
-
-## windows docker wsl 配置存储位置  
-```shell
-# 查看信息
-wsl -l -v --all
-# 退出windows docker 再次查看 状态为stopped 开始下一步
-# 到处当前存储信息 d:\docker 自己创建
-wsl --export docker-desktop d:\docker\docker-desktop.tar
-wsl --export docker-desktop-data d:\docker\docker-desktop-data.tar
-# 注销当前存储
-wsl --unregister docker-desktop
-wsl --unregister docker-desktop-data
-# 新建两个文件夹 docker-desktop 和 docker-desktop-data  重新导入
-wsl --import docker-desktop D:\docker\docker-desktop D:\docker\docker-desktop.tar --version 2
-wsl --import docker-desktop-data D:\docker\docker-desktop-data D:\docker\docker-desktop-data.tar --version 2
-# 验证 查看是否存在 wsl -l -v --all
-# 再次启动docker即可
-```
-
-## Dockerfile  
-```shell
-# 创建一个文件夹 当前文件夹 为工作空间 创建文件名称为 Dockerfile 注意： Dockerfile 无后缀
-mkdir test
-cd test
-touch Dockerfile
-# 内容写完后执行
-# 当前工作文件夹下 image_name 自己要生成的镜像名称 tag 版本信息 注意 末尾的.
-docker build -t image_name:tag .
-```
-
-### Dockerfile样例  
-```shell
-FROM centos:centos7.9.2009
-# 工作目录 类似于cd
-WORKDIR /
-# 创建时执行 即 docker build 同一空间内 尽量用一个 RUN 执行 多个命令 可用 && 连接 如 RUN mkdir test1.txt && mkdir /home/test2.txt
-RUN mkdir test.txt
-WORKDIR /
-# 运行时执行 即 docker run
-CMD ping baidu.com
-```  
-## 打包 容器/镜像  
-```shell
-# 打包最终的仍是镜像 所以 容器打包需要先生成镜像
-# 容器生成镜像
-docker commit test test:v2
-# 打包镜像并输出位置
-docker save test:v2 -o D:\docker\Dockerfile\test\testv2.tar
 ```

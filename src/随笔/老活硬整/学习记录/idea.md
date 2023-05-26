@@ -12,8 +12,8 @@ tag:
   - 开发工具
 sticky: false       # 列表是否置顶 默认 false
 star: false         # 是否收藏 默认 false
-article: true      # 收录到文章 默认 true
-timeline: true     # 是否将该文章添加至时间线中 默认 true
+article: false
+timeline: false
 # sidebar: "heading"
 ---
 

@@ -8,6 +8,8 @@ category:
 tag: 
   - 部署
   - gitpage
+article: false
+timeline: false
 ---
 
 # gitpage
