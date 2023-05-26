@@ -58,6 +58,8 @@ stages:
           - git add .
           - git commit -m "gitee_workflow"
           - git push origin "gh_pages"
+          - rm -rf /root/gitee_workflow/dist
+          - rm -rf /root/gitee_workflow/output.tar.gz
           - echo 'Hello Gitee Go! finish'
           - ''
         notify: []
