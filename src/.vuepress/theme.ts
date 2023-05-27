@@ -73,7 +73,7 @@ export default hopeTheme({
       fancy: true,
     },
     copyright:{
-      global: true,
+      global: false,
       author: "小猫会发光"
     },
     photoSwipe: true,

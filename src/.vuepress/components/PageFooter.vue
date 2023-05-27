@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div style="text-align: center;background-color: black;color: white;">
+    <div style="text-align: center;">
         <p class="copyright">小猫会发光 &copy; xiaomaohuifaguang@163.com</p>
     </div>
 </template>
