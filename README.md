@@ -1,53 +1,10 @@
----
-title: 主题介绍
-icon: circle-info
-star: true
-order: 1
-category:
-  - 快速上手
-tag:
-  - 快速上手
-  - 介绍
----
+# 个人博客
 
-## 主题初衷
-
-制作本主题的初衷是发现 VuePress 默认的主题只是一个提供基础文档布局的主题。
-
-例如，它不会为 SEO 优化注入元标记，也不会生成 Sitemap 来帮助搜索引擎索引文档的内容。
-
-VuePress 虽然在一定程度上扩展了 Markdown 语法，但仍然缺少一些常用的功能，如文本对齐、标记、流程图、公式、展示等，同时默认主题提供的一些功能较弱或缺失 ，比如图片预览，深色模式等。
-
-在这种情况下，`vuepress-theme-hope` 和一些系列插件就应运诞生。
-
-主题不仅在默认主题的基础上**大幅提高美观性**，同时搭配各种插件，**在各种细节与功能上为 VuePress 提供全方位的增强**。
-
-::: warning 一个拥有插件和强大主题的项目
-
-[vuepress-theme-hope/vuepress-theme-hope](https://github.com/vuepress-theme-hope/vuepress-theme-hope) 虽然标明了其为主题仓库，但它同时包含了十多个同样功能完善且强大的插件。每一个插件也都是由 Mr.Hope 精心开发，功能足够强大，可以自由搭配默认主题或者第三方主题单独使用。
-
-而基于这样十几个插件，Mr.Hope 才可以自信的说 `vuepress-theme-hope` 是“**一个带有成吨功能的强大主题**”。它也可以看作是 VuePress 所有主题中，功能最多，覆盖最全面的主题。
-
-:::
-
-## 设计目标
-
-- ### 强大且独立的功能
-
-  我们将每个功能提取到一个插件中，以便用户可以在其他主题中使用它们或单独自定义它们的行为。
-
-- ### 最小化配置
-
-  如果可能，所有功能都会尝试生成默认值，因此你可以在零配置或最小配置下使用它们。
-
-  这有助于减少你的迁移或学习成本，同时直接享受它们的便利。
-
-- ### 改进的布局
-
-  主题界面已经完全重构，以提供可定制和漂亮的布局。
-
-- ### 可拆分
-
-  借助 Vue3 的组合 API，主题在保持强大的同时充分实现了“Tree-shaking”。
-
-  主题将只运行你想要的功能，而不会因其他功能而变慢或影响打包大小。
+## 项目简介  
+1. 地址
+  - github [https://github.com/xiaomaohuifaguang/blog](https://github.com/xiaomaohuifaguang/blog)
+  - gitee [https://gitee.com/xiaomaohuifaguang/blog](https://gitee.com/xiaomaohuifaguang/blog)
+2. 基于
+  - vuepress-theme-hope [https://vuepress-theme-hope.github.io/v2/zh/](https://vuepress-theme-hope.github.io/v2/zh/)
+3. 背景目的  
+卷
