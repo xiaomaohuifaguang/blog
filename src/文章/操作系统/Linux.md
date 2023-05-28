@@ -12,7 +12,9 @@ comment: true
 # Linux
 
 ::: tip 摘要
-记录linux 各分支版本 安装 使用 过程中 指令 
+记录linux 安装 使用 过程中 指令   
+命令已在centos7 中验证  
+其他分支linux 可能会有小的差别
 :::
 
 ## 文件/文件夹操作  
@@ -70,3 +72,35 @@ UUID=f96e71e3-a4b7-4dbb-9576-9ef9ae498717  none  swap  defaults,noauto 0 0
 # 验证 永久关闭验证需重启再执行
 free -m
 ```
+
+## 内存
+```shell
+# 查看
+free # -m 或 -h
+# 清除缓存buff/cache 需切换root账户
+echo 1 > /proc/sys/vm/drop_caches # 释放页缓存
+echo 2 > /proc/sys/vm/drop_caches # 释放dentries和inodes
+echo 3 > /proc/sys/vm/drop_caches # 释放所有缓存
+```
+
+## 防火墙
+```shell
+# 查看防火墙状态
+firewall-cmd --state
+# 开启(关闭)防火墙
+systemctl start firewalld
+systemctl stop firewalld
+# 查看防火墙已经开放的端口号
+firewall-cmd --list-ports
+# 查看指定端口是否开放
+firewall-cmd --query-port=7777/tcp
+# 开启指定端口
+firewall-cmd --zone=public --add-port=7777/tcp --permanent
+# 关闭指定端口
+firewall-cmd --remove-port=7777/tcp --permanent
+# 重启防火墙
+firewall-cmd --reload
+```
+
+## ** command not found  
+- centos中绝大部分该问题都可以用 yum install **
