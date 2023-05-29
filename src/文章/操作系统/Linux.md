@@ -50,6 +50,8 @@ sudo apt install openssh-server
 ```shell
 # 修改 用户 密码 使用有管理权限的账户去修改
 sudo passwd 用户名
+# 切换指定用户
+su 用户名
 ```
 
 ## 系统信息
