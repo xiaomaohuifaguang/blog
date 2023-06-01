@@ -1,8 +1,8 @@
 ---
 category:
-  - 安装部署记录
+  - docker
 tag:
-  - 容器
+  - 安装部署
 date: 2023-05-27
 author: $1x6VI
 comment: true
@@ -59,7 +59,9 @@ docker-compose-plugin
 sudo docker --version
 
 # 启动docker
-sudo systemctl start docker
+sudo systemctl start 
+# 设置开机自启
+sudo systemctl enable docker.service
 
 # 卸载
 sudo yum remove docker-ce docker-ce-cli \

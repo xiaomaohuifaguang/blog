@@ -48,6 +48,25 @@ sudo apt install openssh-server
 
 ## 用户
 ```shell
+# 查询所有用户
+compgen -u
+cat /etc/passwd
+# 添加用户 并指定生成目录
+useradd -m user1
+# 设置密码
+passwd user1
+
+# 添加管理员权限 start
+# 将sudoers文件的权限修改成可编辑
+chmod -v u+w /etc/sudoers
+# 编辑 添加用户权限
+vim /etc/sudoers
+找到 root    ALL=(ALL)       ALL
+然后添加 user1    ALL=(ALL)       ALL
+# 将sudoers文件的权限修改成不可编辑
+chmod -v u-w /etc/sudoers
+# 添加管理员权限 end
+
 # 修改 用户 密码 使用有管理权限的账户去修改
 sudo passwd 用户名
 # 切换指定用户
@@ -103,6 +122,15 @@ firewall-cmd --remove-port=7777/tcp --permanent
 # 重启防火墙
 firewall-cmd --reload
 ```
+
+## 设置hosts
+```shell
+cat /etc/hosts
+vim /etc/hosts
+# 添加  www.baidu.com为自己想起的别名
+127.0.0.1 www.baidu.com
+```
+
 
 ## ** command not found  
 - centos中绝大部分该问题都可以用 yum install **
