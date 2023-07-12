@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-a5c945ee","path":"/%E6%96%87%E7%AB%A0/%E6%9D%82%E8%AE%B0/","title":"杂记","lang":"zh-CN","frontmatter":{"title":"杂记","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null,"excerpt":"","copyright":{"author":"小猫会发光"}}');export{e as data};

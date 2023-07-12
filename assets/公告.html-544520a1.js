@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,a as e,b as o}from"./app-c3071a03.js";const s={},_=e("h1",{id:"置顶公告",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#置顶公告","aria-hidden":"true"},"#"),o(" 置顶公告")],-1),n=e("p",null,"本项目及内容完全开源",-1),r=[_,n];function d(i,l){return a(),c("div",null,r)}const f=t(s,[["render",d],["__file","公告.html.vue"]]);export{f as default};
