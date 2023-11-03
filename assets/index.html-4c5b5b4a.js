@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5e17880b","path":"/%E6%96%87%E7%AB%A0/%E5%89%8D%E7%AB%AF/","title":"前端","lang":"zh-CN","frontmatter":{"title":"前端","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null,"excerpt":"","copyright":{"author":"小猫会发光"}}');export{e as data};

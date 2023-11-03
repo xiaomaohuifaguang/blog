@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-10341c18","path":"/%E6%96%87%E7%AB%A0/%E5%89%8D%E7%AB%AF/vue/","title":"Vue","lang":"zh-CN","frontmatter":{"title":"Vue","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null,"excerpt":"","copyright":{"author":"小猫会发光"}}');export{e as data};

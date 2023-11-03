@@ -1,0 +1,21 @@
+import{_ as e,r as t,o as i,c as l,a as n,b as o,e as c,d as a}from"./app-1045305f.js";const p={},r=a('<h1 id="java" tabindex="-1"><a class="header-anchor" href="#java" aria-hidden="true">#</a> Java</h1><div class="hint-container tip"><p class="hint-container-title">摘要</p><p>jdk安装记录</p></div><h2 id="下载地址" tabindex="-1"><a class="header-anchor" href="#下载地址" aria-hidden="true">#</a> 下载地址</h2>',3),d={href:"https://www.oracle.com/java/technologies/downloads/",target:"_blank",rel:"noopener noreferrer"},u=a(`<h2 id="windows-配置环境变量" tabindex="-1"><a class="header-anchor" href="#windows-配置环境变量" aria-hidden="true">#</a> windows 配置环境变量</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>JAVA _HOME	D:<span class="token punctuation">\\</span>JDK<span class="token punctuation">\\</span>jdk-17.0.7
+<span class="token environment constant">PATH</span>		%JAVA_HOME%<span class="token punctuation">\\</span>bin<span class="token punctuation">;</span>%JAVA_HOME%<span class="token punctuation">\\</span>jre<span class="token punctuation">\\</span>bin<span class="token punctuation">;</span>
+CLASSPATH	<span class="token builtin class-name">.</span><span class="token punctuation">;</span>%JAVA_HOME%<span class="token punctuation">\\</span>lib<span class="token punctuation">;</span>%JAVA_HOME%<span class="token punctuation">\\</span>lib<span class="token punctuation">\\</span>dt.jar<span class="token punctuation">;</span>%JAVA_HOME%<span class="token punctuation">\\</span>lib<span class="token punctuation">\\</span>tools.jar
+
+<span class="token comment"># 验证 cmd</span>
+<span class="token function">java</span> <span class="token parameter variable">-version</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="linux-安装配置环境变量" tabindex="-1"><a class="header-anchor" href="#linux-安装配置环境变量" aria-hidden="true">#</a> Linux 安装配置环境变量</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 解压</span>
+<span class="token function">tar</span> <span class="token parameter variable">-zxvf</span> jdk-17_linux-x64_bin.tar.gz <span class="token parameter variable">-C</span> <span class="token punctuation">..</span>/jdk
+<span class="token comment"># 卸载原有jdk 查看linux 卸载已安装软件</span>
+<span class="token comment"># 配置环境变量</span>
+<span class="token function">vim</span> /etc/profile
+<span class="token comment"># 结尾添加</span>
+<span class="token assign-left variable">JAVA_HOME</span><span class="token operator">=</span>/home/root/jdk/jdk-17.0.7
+<span class="token assign-left variable">CLASSPATH</span><span class="token operator">=</span>.:<span class="token variable">$JAVA_HOME</span>/jre/lib/ext:<span class="token variable">$JAVA_HOME</span>/lib/tools.jar
+<span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token variable">$JAVA_HOME</span>/bin:<span class="token environment constant">$PATH</span>
+<span class="token builtin class-name">export</span> <span class="token environment constant">PATH</span> JAVA_HOME CLASSPATH
+<span class="token comment"># 配置生效</span>
+<span class="token builtin class-name">source</span> /etc/profile
+<span class="token comment"># 验证</span>
+<span class="token function">java</span> <span class="token parameter variable">-version</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,4);function v(m,k){const s=t("ExternalLinkIcon");return i(),l("div",null,[r,n("p",null,[n("a",d,[o("https://www.oracle.com/java/technologies/downloads/"),c(s)])]),u])}const h=e(p,[["render",v],["__file","jdk.html.vue"]]);export{h as default};
