@@ -6,15 +6,15 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
+    name: "小猫会发光",
     url: "https://mister-hope.com",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "xiaomaohuifaguang/blog",
 
   docsDir: "src",
 
@@ -30,7 +30,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "太阳照常升起",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
