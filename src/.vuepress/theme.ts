@@ -3,11 +3,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://xiaomaohuifaguang.github.io",
 
   author: {
     name: "小猫会发光",
-    url: "https://mister-hope.com",
+    url: "https://github.com/xiaomaohuifaguang",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -25,7 +25,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "救赎之道就在其中",
   displayFooter: true,
 
   // 博客相关
@@ -33,41 +33,9 @@ export default hopeTheme({
     description: "太阳照常升起",
     intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
-      },
+      GitHub: "https://github.com/xiaomaohuifaguang",
+      Email: "mailto:xiaomaohuifaguang@163.com",
+      QQ: "tencent://message/?uin=1648456125&Site=https://github.com/xiaomaohuifaguang&Menu=yes",
     },
   },
 
@@ -229,5 +197,20 @@ export default hopeTheme({
     //     ],
     //   },
     // },
+    notice: [
+      {
+        path: "/",
+        title: "公告",
+        content: "没想好",
+        actions: [
+          // {
+          //   text: "Primary Action",
+          //   link: "https://theme-hope.vuejs.press/",
+          //   type: "primary",
+          // },
+          { text: "知道了",type: "primary" },
+        ],
+      }
+    ]
   },
 });

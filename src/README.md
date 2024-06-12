@@ -12,7 +12,5 @@ projects:
     name: 博客
     desc: 个人博客
     link: https://github.com/xiaomaohuifaguang/blog.git
-
-footer: 不是，哥们
 ---
 

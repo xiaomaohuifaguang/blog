@@ -1,8 +1,19 @@
 ---
-icon: circle-info
-cover: /assets/images/cover3.jpg
+icon: heart-pulse
+navbar: true
+sidebar: false
+
+breadcrumb: false
+pageInfo: false
+contributors: false
+editLink: false
+lastUpdated: false
+prev: false
+next: false
+comment: false
 ---
 
-# 介绍页
+# 个人介绍
 
-将你的个人介绍和档案放置在此处。
+OK了老铁  
+都多余了
