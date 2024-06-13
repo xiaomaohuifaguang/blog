@@ -78,9 +78,9 @@ export default hopeTheme({
       darkTheme: "dark"
     },
     docsearch: {
-      appId: '<APP_ID>',
-      apiKey: '<API_KEY>',
-      indexName: '<INDEX_NAME>',
+      appId: 'LJ7676XPOU',
+      apiKey: '82877ca68d9706d20909e37004fdc63a',
+      indexName: 'xiaomaohuifaguangio',
       locales: {
         '/': {
           placeholder: '搜索文档',
@@ -98,7 +98,7 @@ export default hopeTheme({
     },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "FontIcon", "SiteInfo", "VPBanner", "VPCard", "PDF"],
     },
     copyCode: false,
     watermark: {
