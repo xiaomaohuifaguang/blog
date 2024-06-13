@@ -2,6 +2,8 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
+
+
 export default hopeTheme({
   hostname: "https://xiaomaohuifaguang.github.io",
 
@@ -64,11 +66,47 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
+    comment: {
+      provider: "Giscus",
+      repo: "xiaomaohuifaguang/blog",
+      repoId: "R_kgDOMHcuCQ",
+      category: "Announcements",
+      categoryId: "DIC_kwDOMHcuCc4CgEKG",
+      lazyLoading: true,//懒加载
+      strict: false,
+      lightTheme: "light",
+      darkTheme: "dark"
+    },
+    docsearch: {
+      appId: '<APP_ID>',
+      apiKey: '<API_KEY>',
+      indexName: '<INDEX_NAME>',
+      locales: {
+        '/': {
+          placeholder: '搜索文档',
+          translations: {
+            button: {
+              buttonText: '搜索文档',
+            },
+          },
+        },
+      }
+    },
+    copyright: {
+      triggerLength: 100,
+      global: true
+    },
 
     components: {
       components: ["Badge", "VPCard"],
     },
+    copyCode: false,
+    watermark: {
+      enabled: true,
 
+    },
+    feed: true,
+    
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
       align: true,
