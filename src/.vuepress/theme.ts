@@ -79,7 +79,7 @@ export default hopeTheme({
     },
     docsearch: {
       appId: 'LJ7676XPOU',
-      apiKey: 'd08bffbfe3a3142b483bcdd6722dae8a',
+      apiKey: 'd6afddaf98377be9be9920a09218b847',
       indexName: 'xiaomaohuifaguangio',
       locales: {
         '/': {
