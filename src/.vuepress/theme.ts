@@ -92,6 +92,7 @@ export default hopeTheme({
         },
       }
     },
+    // searchPro: true,
     copyright: {
       triggerLength: 100,
       global: true

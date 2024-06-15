@@ -5,7 +5,7 @@ export default navbar([
   "intro.md",
   "模板.md",
   "档案.md",
-  "常用网址.md",
+  "网站导航.md",
   // "/demo/",
   // {
   //   text: "博文",
