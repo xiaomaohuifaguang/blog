@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/学习记录/",
-  "intro.md",
+  "个人介绍.md",
   "模板.md",
   "档案.md",
   "网站导航.md",

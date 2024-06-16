@@ -41,7 +41,7 @@ export default sidebar({
   "/学习记录/": [
     {
       text: "学习记录",
-      icon: "clipboard",
+      icon: "folder",
       prefix: "",
       children: "structure",
     }
