@@ -32,6 +32,12 @@
             "description": "git 提交信息的 emoji 指南",
             "url": "https://gitmoji.js.org/",
             "logo": ""
+        },
+        {
+            "name": "dockerhub",
+            "description": "dockerhub",
+            "url": "https://hub.docker.com/",
+            "logo": ""
         }
     ],
     "ai": [
