@@ -52,13 +52,19 @@ import {
     ElText,
     ElImage
 } from 'element-plus';
-import 'element-plus/es/components/row/style/css';
-import 'element-plus/es/components/col/style/css';
-// import 'element-plus/es/components/collapse/style/css';
-// import 'element-plus/es/components/collapse-item/style/css';
-import 'element-plus/es/components/card/style/css';
-import 'element-plus/es/components/text/style/css';
-import 'element-plus/es/components/image/style/css';
+// import 'element-plus/es/components/row/style/css';
+// import 'element-plus/es/components/col/style/css';
+// // import 'element-plus/es/components/collapse/style/css';
+// // import 'element-plus/es/components/collapse-item/style/css';
+// import 'element-plus/es/components/card/style/css';
+// import 'element-plus/es/components/text/style/css';
+// import 'element-plus/es/components/image/style/css';
+import 'element-plus/theme-chalk/base.css';
+import 'element-plus/theme-chalk/el-row.css';
+import 'element-plus/theme-chalk/el-col.css';
+import 'element-plus/theme-chalk/el-card.css';
+import 'element-plus/theme-chalk/el-text.css';
+import 'element-plus/theme-chalk/el-image.css';
 
 
 const json = ref({
@@ -93,7 +99,6 @@ const openUrl = (url: string) => {
 }
 
 </script>
-
 <style lang="scss" scoped>
 .el-card :hover {
     cursor: pointer;
