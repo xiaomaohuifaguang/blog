@@ -37,7 +37,7 @@ export default hopeTheme({
     medias: {
       GitHub: "https://github.com/xiaomaohuifaguang",
       Email: "mailto:xiaomaohuifaguang@163.com",
-      QQ: "tencent://message/?uin=1648456125&Site=https://github.com/xiaomaohuifaguang&Menu=yes",
+      QQ: "tencent://message/?uin=460676145&Site=https://github.com/xiaomaohuifaguang&Menu=yes",
     },
   },
 
