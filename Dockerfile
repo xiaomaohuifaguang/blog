@@ -7,7 +7,7 @@ WORKDIR /usr/share/nginx/html
 # 自定义nginx配置
 COPY nginx.conf /etc/nginx/nginx.conf
 
-# COPY ./src/.vuepress/dist/ .
+COPY ./src/.vuepress/dist/ .
 
 # 设置静态文件服务的端口
 EXPOSE 80
