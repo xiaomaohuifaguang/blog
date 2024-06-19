@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://xiaomaohuifaguang.github.io/blog/sitemap.xml
