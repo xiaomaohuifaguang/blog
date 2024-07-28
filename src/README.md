@@ -13,12 +13,12 @@ projects:
     desc: 个人博客
     link: https://github.com/xiaomaohuifaguang/blog.git
   - icon: project
-    name: Jocker-Box
+    name: Joker-Box
     desc: 小丑盒子
-    link: https://github.com/xiaomaohuifaguang/Jocker-Box
+    link: https://github.com/xiaomaohuifaguang/Joker-Box
   - icon: project
     name: Jocker-Box-Web
     desc: 小丑盒子web
-    link: https://github.com/xiaomaohuifaguang/Jocker-Box-Web
+    link: https://github.com/xiaomaohuifaguang/Joker-Box-Web
 ---
 

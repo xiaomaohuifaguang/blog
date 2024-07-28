@@ -103,7 +103,7 @@ export default hopeTheme({
     components: {
       components: ["Badge", "FontIcon", "SiteInfo", "VPBanner", "VPCard", "PDF"],
     },
-    copyCode: false,
+    copyCode: true,
     watermark: {
       enabled: true,
 

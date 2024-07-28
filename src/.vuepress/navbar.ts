@@ -6,6 +6,17 @@ export default navbar([
   "模板.md",
   "档案.md",
   "网站导航.md",
+  {
+    text: "项目",
+    icon: "folder",
+    prefix: "/projects/",
+    children: [
+      {
+        text: "Jocker-Box",
+        link: "Jocker-Box"
+      }
+    ]
+  },
   // "/demo/",
   // {
   //   text: "博文",
