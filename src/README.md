@@ -17,7 +17,7 @@ projects:
     desc: 小丑盒子
     link: https://github.com/xiaomaohuifaguang/Joker-Box
   - icon: project
-    name: Jocker-Box-Web
+    name: Joker-Box-Web
     desc: 小丑盒子web
     link: https://github.com/xiaomaohuifaguang/Joker-Box-Web
 ---
