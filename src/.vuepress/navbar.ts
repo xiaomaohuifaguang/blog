@@ -12,8 +12,8 @@ export default navbar([
     prefix: "/projects/",
     children: [
       {
-        text: "Jocker-Box",
-        link: "Jocker-Box"
+        text: "Joker-Box",
+        link: "Joker-Box"
       }
     ]
   },
