@@ -1,47 +1,79 @@
-# 一个博客的搭建
-## 简介
-> 这是一篇关于博客搭建的文章。  
+# 博客搭建指南
 
-## 相关网站
-> [VuePress Theme Hope](https://theme-hope.vuejs.press/)开源博客主题网站内容更详细   
-[gitee同步github](https://gitee.com/help/articles/4336)说明文档  
-[主题部署文档](https://theme-hope.vuejs.press/zh/get-started/deploy.html)
-[vuepress官方部署文档](https://vuejs.press/zh/guide/deployment.html)  
-[默认GITHUB_TOKEN权限说明](https://docs.github.com/zh/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token)
+> 基于 VuePress Theme Hope 的静态博客项目
 
+## 🌟 项目简介
 
+使用 [VuePress Theme Hope](https://theme-hope.vuejs.press/) 构建的现代化技术博客，支持：
+- Markdown 写作扩展
+- 自动生成文档导航
+- Gitalk 评论系统
+- 自动部署到 GitHub Pages
 
-## 创建项目
-本文旨在搭建可访问博客，具体博客内容及样式请自行根据[VuePress Theme Hope](https://theme-hope.vuejs.press/)研究(或[其它框架](https://www.baidu.com/s?wd=开源博客框架))
-- src/.vuepress/config.ts 中 base 配置 要与远程仓库项目名同名 不需要远程部署可忽略
+## 🧰 技术栈
 
+- 📦 VuePress 2.x
+- 📜 Vue 3 + TypeScript
+- 💎 Vite 构建工具
+- 🌐 GitHub Actions 自动部署
+- 📚 VuePress Theme Hope 主题
 
-## 部署
+## 📂 项目结构
+```bash
+blog/
+├── src/          # 博客内容源文件
+│   ├── posts/    # 文章目录
+│   └── config.ts # 站点配置
+├── public/       # 静态资源
+├── .vuepress/    # VuePress 配置
+│   ├── config.ts
+│   └── theme/    # 主题定制
+└── README.md     # 本说明文件
+```
 
-### 准备
-1. 提交项目代码到远程仓库（github/gitee） 本文项目名称 blog  
-2. 双远程仓库推荐gitee同步功能https://gitee.com/help/articles/4336
-- 注意：gitee同步功能会有延迟
-3. 项目里创建workflows配置文件根据vuepress官方部署文档  
-- [主题部署文档](https://theme-hope.vuejs.press/zh/get-started/deploy.html)  
-- [vuepress官方部署文档](https://vuejs.press/zh/guide/deployment.html)（直接看这个）  
-- 需要注意在yml中 build_dir 配置是docs还是src 默认创建项目时选的博客的话应该是src看你项目中文件夹名称
+## 🚀 使用指南
 
-### github工作流配置
-1. 在yml中配置的GITHUB_TOKEN 默认值为GITHUB_TOKEN（[权限说明](https://docs.github.com/zh/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token)） 为GITHUB默认有的 其权限可在项目的  
-Settings->Actions->General中配置
-- 需要配置
-  - 打勾 -> Workflow permissions -> Read and write permissions 
-  - 打勾 -> Allow GitHub Actions to create and approve pull requests 
-2. 配置Pages
-- 工作流执行成功后分支会出现一个gh-pages（在yml中配置的可改）
-- GITHUB配置Pages
-  - Settings->Pages->Branch->选择gh-pages->Save(保存)
-  - 刷新下当前页面会出现生成的博客地址  
-  默认格式为https://你的账号.github.io/项目名称/
+### 安装依赖
+```bash
+npm install
+```
 
-3. gitee配置Pages
-- 目前gitee维护调整 记录日期 2024-06-11
+### 本地开发
+```bash
+npm run dev
+```
 
-## 傻瓜式部署
-敬请期待
+### 构建生产
+```bash
+npm run build
+```
+
+### 部署到 GitHub Pages
+1. 配置 `.github/workflows/deploy.yml`
+2. 设置 `GITHUB_TOKEN` 权限
+3. 提交代码到远程仓库
+
+## 🌐 部署说明
+
+### GitHub Pages 配置
+1. 在项目 Settings -> Pages 中：
+   - 选择 `gh-pages` 分支
+   - 保存后获取部署地址
+2. 访问地址格式：
+   `https://<用户名>.github.io/<项目名>/`
+
+### Gitee Pages 配置
+- 当前维护中（记录时间 2026-03-21）
+- 建议使用 GitHub Actions 同步部署
+
+## 🤝 贡献指南
+
+1. Fork 项目并创建 Feature 分支
+2. 提交 PR 前确保：
+   - 通过 `npm run lint` 检查
+   - 更新相关文档
+3. 使用 [Conventional Commits](https://conventionalcommits.org/) 规范提交
+
+## 📄 许可证
+
+MIT License © 2024-present 小猫会发光
