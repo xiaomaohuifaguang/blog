@@ -2,70 +2,202 @@
     "name": "网站收藏",
     "models": [
         {
-            "id": "default",
-            "name": "常用"
+            "id": "china",
+            "name": "🇨🇳 国内常用"
         },
         {
             "id": "ai",
-            "name": "AI"
+            "name": "🤖 AI 智能"
         },
         {
             "id": "tool",
-            "name": "工具"
+            "name": "🛠️ 实用工具"
+        },
+        {
+            "id": "dev",
+            "name": "💻 开发资源"
         }
     ],
-    "default": [
+    "china": [
         {
-            "name": "有道翻译",
-            "description": "有道翻译",
-            "url": "https://fanyi.youdao.com/",
-            "logo": ""
+            "name": "百度",
+            "description": "百度一下，你就知道 - 中文搜索引擎",
+            "url": "https://www.baidu.com",
+            "logo": "https://www.baidu.com/favicon.ico"
         },
         {
-            "name": "Kimi",
-            "description": "Kimi是北京月之暗面科技有限公司于2023年10月9日推出的一款智能助手，主要应用场景为专业学术论文的翻译和理解、辅助分析法律问题、快速理解API开发文档等",
-            "url": "https://kimi.moonshot.cn/",
-            "logo": ""
+            "name": "哔哩哔哩",
+            "description": "B站 - 年轻人的文化社区",
+            "url": "https://www.bilibili.com",
+            "logo": "https://www.bilibili.com/favicon.ico"
         },
         {
-            "name": "gitmoji",
-            "description": "git 提交信息的 emoji 指南",
-            "url": "https://gitmoji.js.org/",
-            "logo": ""
+            "name": "知乎",
+            "description": "有问题，就会有答案",
+            "url": "https://www.zhihu.com",
+            "logo": "https://www.zhihu.com/favicon.ico"
         },
         {
-            "name": "dockerhub",
-            "description": "dockerhub",
-            "url": "https://hub.docker.com/",
-            "logo": ""
+            "name": "微博",
+            "description": "随时随地发现新鲜事",
+            "url": "https://weibo.com",
+            "logo": "https://weibo.com/favicon.ico"
+        },
+        {
+            "name": "淘宝",
+            "description": "淘宝网 - 淘！我喜欢",
+            "url": "https://www.taobao.com",
+            "logo": "https://www.taobao.com/favicon.ico"
+        },
+        {
+            "name": "京东",
+            "description": "多快好省，购物上京东",
+            "url": "https://www.jd.com",
+            "logo": "https://www.jd.com/favicon.ico"
+        },
+        {
+            "name": "网易云音乐",
+            "description": "音乐的力量",
+            "url": "https://music.163.com",
+            "logo": "https://music.163.com/favicon.ico"
+        },
+        {
+            "name": "小红书",
+            "description": "标记我的生活",
+            "url": "https://www.xiaohongshu.com",
+            "logo": "https://www.xiaohongshu.com/favicon.ico"
         }
     ],
     "ai": [
         {
             "name": "Kimi",
-            "description": "Kimi是北京月之暗面科技有限公司于2023年10月9日推出的一款智能助手，主要应用场景为专业学术论文的翻译和理解、辅助分析法律问题、快速理解API开发文档等",
+            "description": "月之暗面出品，支持长文本的AI助手",
             "url": "https://kimi.moonshot.cn/",
-            "logo": ""
+            "logo": "https://kimi.moonshot.cn/favicon.ico"
         },
         {
-            "name": "ChatGpt",
-            "description": "ChatGpt",
+            "name": "ChatGPT",
+            "description": "OpenAI 出品的对话式AI",
             "url": "https://chatgpt.com/",
-            "logo": ""
+            "logo": "https://chatgpt.com/favicon.ico"
+        },
+        {
+            "name": "文心一言",
+            "description": "百度出品的大语言模型",
+            "url": "https://yiyan.baidu.com",
+            "logo": "https://yiyan.baidu.com/favicon.ico"
+        },
+        {
+            "name": "通义千问",
+            "description": "阿里云出品的大模型",
+            "url": "https://tongyi.aliyun.com",
+            "logo": "https://tongyi.aliyun.com/favicon.ico"
+        },
+        {
+            "name": "豆包",
+            "description": "字节跳动出品的AI助手",
+            "url": "https://www.doubao.com",
+            "logo": "https://www.doubao.com/favicon.ico"
+        },
+        {
+            "name": "智谱清言",
+            "description": "智谱AI出品的对话助手",
+            "url": "https://chatglm.cn",
+            "logo": "https://chatglm.cn/favicon.ico"
         }
     ],
     "tool": [
         {
-            "name": "gitmoji",
-            "description": "git 提交信息的 emoji 指南",
-            "url": "https://gitmoji.js.org/",
+            "name": "有道翻译",
+            "description": "支持多语种在线翻译",
+            "url": "https://fanyi.youdao.com/",
+            "logo": "https://fanyi.youdao.com/favicon.ico"
+        },
+        {
+            "name": "腾讯文档",
+            "description": "在线文档协作平台",
+            "url": "https://docs.qq.com",
+            "logo": "https://docs.qq.com/favicon.ico"
+        },
+        {
+            "name": "石墨文档",
+            "description": "在线协作文档工具",
+            "url": "https://shimo.im",
+            "logo": "https://shimo.im/favicon.ico"
+        },
+        {
+            "name": "ProcessOn",
+            "description": "在线作图工具，支持流程图、思维导图",
+            "url": "https://www.processon.com",
+            "logo": "https://www.processon.com/favicon.ico"
+        },
+        {
+            "name": "迅捷PDF转换器",
+            "description": "在线PDF转换工具",
+            "url": "https://app.xunjiepdf.com",
             "logo": ""
         },
         {
-            "name": "有道翻译",
-            "description": "有道翻译",
-            "url": "https://fanyi.youdao.com/",
-            "logo": ""
+            "name": "remove.bg",
+            "description": "AI自动抠图工具",
+            "url": "https://www.remove.bg",
+            "logo": "https://www.remove.bg/favicon.ico"
+        }
+    ],
+    "dev": [
+        {
+            "name": "GitHub",
+            "description": "全球最大的代码托管平台",
+            "url": "https://github.com",
+            "logo": "https://github.com/favicon.ico"
+        },
+        {
+            "name": "Gitee",
+            "description": "国内代码托管平台",
+            "url": "https://gitee.com",
+            "logo": "https://gitee.com/favicon.ico"
+        },
+        {
+            "name": "Docker Hub",
+            "description": "Docker镜像仓库",
+            "url": "https://hub.docker.com/",
+            "logo": "https://hub.docker.com/favicon.ico"
+        },
+        {
+            "name": "gitmoji",
+            "description": "Git提交信息的emoji指南",
+            "url": "https://gitmoji.js.org/",
+            "logo": "https://gitmoji.js.org/favicon.ico"
+        },
+        {
+            "name": "MDN",
+            "description": "Web开发技术文档",
+            "url": "https://developer.mozilla.org",
+            "logo": "https://developer.mozilla.org/favicon.ico"
+        },
+        {
+            "name": "Stack Overflow",
+            "description": "程序员问答社区",
+            "url": "https://stackoverflow.com",
+            "logo": "https://stackoverflow.com/favicon.ico"
+        },
+        {
+            "name": "V2EX",
+            "description": "创意工作者社区",
+            "url": "https://www.v2ex.com",
+            "logo": "https://www.v2ex.com/favicon.ico"
+        },
+        {
+            "name": "掘金",
+            "description": "技术社区，分享优质技术内容",
+            "url": "https://juejin.cn",
+            "logo": "https://juejin.cn/favicon.ico"
+        },
+        {
+            "name": "CSDN",
+            "description": "IT技术社区",
+            "url": "https://www.csdn.net",
+            "logo": "https://www.csdn.net/favicon.ico"
         }
     ]
 }
