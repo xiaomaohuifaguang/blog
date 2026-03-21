@@ -11,12 +11,12 @@ export default sidebar({
     },
     "intro"
   ],
-  // "/学习记录/": [
-  //   {
-  //     text: "学习记录",
-  //     icon: "folder",
-  //     prefix: "",
-  //     children: "structure",
-  //   }
-  // ]
+  "/学习记录/": [
+    {
+      text: "学习记录",
+      icon: "folder",
+      prefix: "",
+      children: "structure",
+    }
+  ]
 });
