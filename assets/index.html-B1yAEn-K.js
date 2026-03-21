@@ -1,0 +1,73 @@
+import{_ as a}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as l,d as g,o as n}from"./app-CMVKHYB0.js";const s={};function e(o,t){return n(),l("div",null,[...t[0]||(t[0]=[g(`<div class="VPBlog" data-v-0c17b436><h1 data-v-0c17b436>📝 技术博客</h1><p class="description" data-v-0c17b436>记录学习与实践，分享技术与心得</p><div class="blog-grid" data-v-0c17b436><article class="blog-card" data-v-0c17b436><h2 data-v-0c17b436><a href="/blog/posts/java/spring-boot-integration.html" data-v-0c17b436>Spring Security 集成</a></h2><p data-v-0c17b436>在 Spring Boot 项目中集成 Spring Security，实现用户认证与权限控制。</p><div class="meta" data-v-0c17b436><span class="tag" data-v-0c17b436>Java</span><span class="tag" data-v-0c17b436>SpringBoot</span><span class="tag" data-v-0c17b436>Security</span><time datetime="2026-03-21" data-v-0c17b436>3 min read</time></div></article><pre data-v-0c17b436><code data-v-0c17b436>&lt;article class=&quot;blog-card&quot;&gt;
+  &lt;h2&gt;&lt;a href=&quot;/blog/posts/java/logging-framework.html&quot;&gt;Java 日志框架实践&lt;/a&gt;&lt;/h2&gt;
+  &lt;p&gt;对比 Logback、Log4j2 等日志框架，搭建企业级日志系统。&lt;/p&gt;
+  &lt;div class=&quot;meta&quot;&gt;
+    &lt;span class=&quot;tag&quot;&gt;Java&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;Logging&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;Log4j2&lt;/span&gt;
+    &lt;time datetime=&quot;2026-03-21&quot;&gt;3 min read&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+
+&lt;article class=&quot;blog-card&quot;&gt;
+  &lt;h2&gt;&lt;a href=&quot;/blog/posts/java/springboot-build.html&quot;&gt;SpringBoot 项目构建指南&lt;/a&gt;&lt;/h2&gt;
+  &lt;p&gt;如何选择合适版本，配置 pom.xml，快速构建 Spring Boot 项目。&lt;/p&gt;
+  &lt;div class=&quot;meta&quot;&gt;
+    &lt;span class=&quot;tag&quot;&gt;Java&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;SpringBoot&lt;/span&gt;
+    &lt;time datetime=&quot;2026-03-21&quot;&gt;1 min read&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+
+&lt;article class=&quot;blog-card&quot;&gt;
+  &lt;h2&gt;&lt;a href=&quot;/blog/posts/docker/installation.html&quot;&gt;Docker 安装与使用记录&lt;/a&gt;&lt;/h2&gt;
+  &lt;p&gt;CentOS/Ubuntu 环境下的 Docker 安装步骤及使用记录。&lt;/p&gt;
+  &lt;div class=&quot;meta&quot;&gt;
+    &lt;span class=&quot;tag&quot;&gt;Docker&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;DevOps&lt;/span&gt;
+    &lt;time datetime=&quot;2026-03-21&quot;&gt;4 min read&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+
+&lt;article class=&quot;blog-card&quot;&gt;
+  &lt;h2&gt;&lt;a href=&quot;/blog/posts/docker/dockerfile-jdk.html&quot;&gt;Dockerfile JDK 镜像制作&lt;/a&gt;&lt;/h2&gt;
+  &lt;p&gt;自定义 JDK 21 镜像，基于 tar.gz 包打包 Docker 镜像。&lt;/p&gt;
+  &lt;div class=&quot;meta&quot;&gt;
+    &lt;span class=&quot;tag&quot;&gt;Docker&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;JDK&lt;/span&gt;
+    &lt;time datetime=&quot;2026-03-21&quot;&gt;1 min read&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+
+&lt;article class=&quot;blog-card&quot;&gt;
+  &lt;h2&gt;&lt;a href=&quot;/blog/posts/nginx/plugins.html&quot;&gt;Nginx RTMP 直播流插件&lt;/a&gt;&lt;/h2&gt;
+  &lt;p&gt;使用 nginx-rtmp-module 搭建直播流服务。&lt;/p&gt;
+  &lt;div class=&quot;meta&quot;&gt;
+    &lt;span class=&quot;tag&quot;&gt;Nginx&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;RTMP&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;Streaming&lt;/span&gt;
+    &lt;time datetime=&quot;2026-03-21&quot;&gt;1 min read&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+
+&lt;article class=&quot;blog-card&quot;&gt;
+  &lt;h2&gt;&lt;a href=&quot;/blog/posts/k8s/basics.html&quot;&gt;Kubernetes 基础学习&lt;/a&gt;&lt;/h2&gt;
+  &lt;p&gt;K8s 入门：Pod、Service、Deployment 基本概念与实践。&lt;/p&gt;
+  &lt;div class=&quot;meta&quot;&gt;
+    &lt;span class=&quot;tag&quot;&gt;K8s&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;容器化&lt;/span&gt;
+    &lt;time datetime=&quot;2026-03-21&quot;&gt;1 min read&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+
+&lt;article class=&quot;blog-card&quot;&gt;
+  &lt;h2&gt;&lt;a href=&quot;/blog/posts/bpmn/js-bpmn.html&quot;&gt;bpmn.js 流程引擎使用记录&lt;/a&gt;&lt;/h2&gt;
+  &lt;p&gt;基于 bpmn-js 18.x 版本的前端流程引擎集成与使用记录。&lt;/p&gt;
+  &lt;div class=&quot;meta&quot;&gt;
+    &lt;span class=&quot;tag&quot;&gt;BPMN&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;JS&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;Flowable&lt;/span&gt;
+    &lt;time datetime=&quot;2026-03-21&quot;&gt;1 min read&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+</code></pre></div></div>`,1)])])}const c=a(s,[["render",e],["__scopeId","data-v-0c17b436"],["__file","index.html.vue"]]),r=JSON.parse('{"path":"/posts/","title":"博文","lang":"zh-CN","frontmatter":{"home":true,"title":"博文","icon":"blog","layout":"BlogHome","description":"📝 技术博客 记录学习与实践，分享技术与心得 Spring Security 集成 在 Spring Boot 项目中集成 Spring Security，实现用户认证与权限控制。 Java SpringBoot Security 3 min read","head":[["meta",{"property":"og:url","content":"https://xiaomaohuifaguang.github.io/blog/posts/"}],["meta",{"property":"og:site_name","content":"小猫会发光"}],["meta",{"property":"og:title","content":"博文"}],["meta",{"property":"og:description","content":"📝 技术博客 记录学习与实践，分享技术与心得 Spring Security 集成 在 Spring Boot 项目中集成 Spring Security，实现用户认证与权限控制。 Java SpringBoot Security 3 min read"}],["meta",{"property":"og:type","content":"website"}],["meta",{"property":"og:locale","content":"zh-CN"}],["meta",{"property":"og:updated_time","content":"2026-03-21T10:41:29.000Z"}],["meta",{"property":"article:author","content":"小猫会发光"}],["meta",{"property":"article:modified_time","content":"2026-03-21T10:41:29.000Z"}],["script",{"type":"application/ld+json"},"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"WebPage\\",\\"name\\":\\"博文\\",\\"description\\":\\"📝 技术博客 记录学习与实践，分享技术与心得 Spring Security 集成 在 Spring Boot 项目中集成 Spring Security，实现用户认证与权限控制。 Java SpringBoot Security 3 min read\\"}"]]},"headers":[],"git":{"createdTime":1774089689000,"updatedTime":1774089689000,"contributors":[{"name":"s1x6","email":"xiaomaohuifaguang@163.com","commits":1}]},"readingTime":{"minutes":2.35,"words":704},"filePathRelative":"posts/index.md","localizedDate":"2026年3月21日","excerpt":"<div class=\\"VPBlog\\">\\n  <h1>📝 技术博客</h1>\\n  <p class=\\"description\\">记录学习与实践，分享技术与心得</p>\\n  <div class=\\"blog-grid\\">\\n    <article class=\\"blog-card\\">\\n      <h2><a href=\\"/blog/posts/java/spring-boot-integration.html\\">Spring Security 集成</a></h2>\\n      <p>在 Spring Boot 项目中集成 Spring Security，实现用户认证与权限控制。</p>\\n      <div class=\\"meta\\">\\n        <span class=\\"tag\\">Java</span>\\n        <span class=\\"tag\\">SpringBoot</span>\\n        <span class=\\"tag\\">Security</span>\\n        <time datetime=\\"2026-03-21\\">3 min read</time>\\n      </div>\\n    </article>\\n<pre><code>&lt;article class=\\"blog-card\\"&gt;\\n  &lt;h2&gt;&lt;a href=\\"/blog/posts/java/logging-framework.html\\"&gt;Java 日志框架实践&lt;/a&gt;&lt;/h2&gt;\\n  &lt;p&gt;对比 Logback、Log4j2 等日志框架，搭建企业级日志系统。&lt;/p&gt;\\n  &lt;div class=\\"meta\\"&gt;\\n    &lt;span class=\\"tag\\"&gt;Java&lt;/span&gt;\\n    &lt;span class=\\"tag\\"&gt;Logging&lt;/span&gt;\\n    &lt;span class=\\"tag\\"&gt;Log4j2&lt;/span&gt;\\n    &lt;time datetime=\\"2026-03-21\\"&gt;3 min read&lt;/time&gt;\\n  &lt;/div&gt;\\n&lt;/article&gt;\\n\\n&lt;article class=\\"blog-card\\"&gt;\\n  &lt;h2&gt;&lt;a href=\\"/blog/posts/java/springboot-build.html\\"&gt;SpringBoot 项目构建指南&lt;/a&gt;&lt;/h2&gt;\\n  &lt;p&gt;如何选择合适版本，配置 pom.xml，快速构建 Spring Boot 项目。&lt;/p&gt;\\n  &lt;div class=\\"meta\\"&gt;\\n    &lt;span class=\\"tag\\"&gt;Java&lt;/span&gt;\\n    &lt;span class=\\"tag\\"&gt;SpringBoot&lt;/span&gt;\\n    &lt;time datetime=\\"2026-03-21\\"&gt;1 min read&lt;/time&gt;\\n  &lt;/div&gt;\\n&lt;/article&gt;\\n\\n&lt;article class=\\"blog-card\\"&gt;\\n  &lt;h2&gt;&lt;a href=\\"/blog/posts/docker/installation.html\\"&gt;Docker 安装与使用记录&lt;/a&gt;&lt;/h2&gt;\\n  &lt;p&gt;CentOS/Ubuntu 环境下的 Docker 安装步骤及使用记录。&lt;/p&gt;\\n  &lt;div class=\\"meta\\"&gt;\\n    &lt;span class=\\"tag\\"&gt;Docker&lt;/span&gt;\\n    &lt;span class=\\"tag\\"&gt;DevOps&lt;/span&gt;\\n    &lt;time datetime=\\"2026-03-21\\"&gt;4 min read&lt;/time&gt;\\n  &lt;/div&gt;\\n&lt;/article&gt;\\n\\n&lt;article class=\\"blog-card\\"&gt;\\n  &lt;h2&gt;&lt;a href=\\"/blog/posts/docker/dockerfile-jdk.html\\"&gt;Dockerfile JDK 镜像制作&lt;/a&gt;&lt;/h2&gt;\\n  &lt;p&gt;自定义 JDK 21 镜像，基于 tar.gz 包打包 Docker 镜像。&lt;/p&gt;\\n  &lt;div class=\\"meta\\"&gt;\\n    &lt;span class=\\"tag\\"&gt;Docker&lt;/span&gt;\\n    &lt;span class=\\"tag\\"&gt;JDK&lt;/span&gt;\\n    &lt;time datetime=\\"2026-03-21\\"&gt;1 min read&lt;/time&gt;\\n  &lt;/div&gt;\\n&lt;/article&gt;\\n\\n&lt;article class=\\"blog-card\\"&gt;\\n  &lt;h2&gt;&lt;a href=\\"/blog/posts/nginx/plugins.html\\"&gt;Nginx RTMP 直播流插件&lt;/a&gt;&lt;/h2&gt;\\n  &lt;p&gt;使用 nginx-rtmp-module 搭建直播流服务。&lt;/p&gt;\\n  &lt;div class=\\"meta\\"&gt;\\n    &lt;span class=\\"tag\\"&gt;Nginx&lt;/span&gt;\\n    &lt;span class=\\"tag\\"&gt;RTMP&lt;/span&gt;\\n    &lt;span class=\\"tag\\"&gt;Streaming&lt;/span&gt;\\n    &lt;time datetime=\\"2026-03-21\\"&gt;1 min read&lt;/time&gt;\\n  &lt;/div&gt;\\n&lt;/article&gt;\\n\\n&lt;article class=\\"blog-card\\"&gt;\\n  &lt;h2&gt;&lt;a href=\\"/blog/posts/k8s/basics.html\\"&gt;Kubernetes 基础学习&lt;/a&gt;&lt;/h2&gt;\\n  &lt;p&gt;K8s 入门：Pod、Service、Deployment 基本概念与实践。&lt;/p&gt;\\n  &lt;div class=\\"meta\\"&gt;\\n    &lt;span class=\\"tag\\"&gt;K8s&lt;/span&gt;\\n    &lt;span class=\\"tag\\"&gt;容器化&lt;/span&gt;\\n    &lt;time datetime=\\"2026-03-21\\"&gt;1 min read&lt;/time&gt;\\n  &lt;/div&gt;\\n&lt;/article&gt;\\n\\n&lt;article class=\\"blog-card\\"&gt;\\n  &lt;h2&gt;&lt;a href=\\"/blog/posts/bpmn/js-bpmn.html\\"&gt;bpmn.js 流程引擎使用记录&lt;/a&gt;&lt;/h2&gt;\\n  &lt;p&gt;基于 bpmn-js 18.x 版本的前端流程引擎集成与使用记录。&lt;/p&gt;\\n  &lt;div class=\\"meta\\"&gt;\\n    &lt;span class=\\"tag\\"&gt;BPMN&lt;/span&gt;\\n    &lt;span class=\\"tag\\"&gt;JS&lt;/span&gt;\\n    &lt;span class=\\"tag\\"&gt;Flowable&lt;/span&gt;\\n    &lt;time datetime=\\"2026-03-21\\"&gt;1 min read&lt;/time&gt;\\n  &lt;/div&gt;\\n&lt;/article&gt;\\n</code></pre>\\n  </div>\\n</div>","autoDesc":true}');export{c as comp,r as data};
